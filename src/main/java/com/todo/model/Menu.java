@@ -1,5 +1,7 @@
 package com.todo.model;
 
+import com.todo.service.TodoList;
+
 import java.util.Scanner;
 
 public class Menu {

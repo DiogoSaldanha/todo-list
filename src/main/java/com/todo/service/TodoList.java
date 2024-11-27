@@ -1,4 +1,6 @@
-package com.todo.model;
+package com.todo.service;
+
+import com.todo.model.Task;
 
 import java.util.ArrayList;
 import java.util.List;

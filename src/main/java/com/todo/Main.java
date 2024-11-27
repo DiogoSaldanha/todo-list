@@ -1,7 +1,7 @@
 package com.todo;
 
 import com.todo.model.Menu;
-import com.todo.model.TodoList;
+import com.todo.service.TodoList;
 
 import java.util.Scanner;
 
