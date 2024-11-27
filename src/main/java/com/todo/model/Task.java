@@ -21,6 +21,10 @@ public class Task {
         return completed;
     }
 
+    public void markAsCompleted() {
+        this.completed = true;
+    }
+
     @Override
     public String toString() {
         return (completed ? "[Completed] " : "[Pending] ") + description;
