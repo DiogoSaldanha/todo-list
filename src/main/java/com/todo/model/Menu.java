@@ -19,7 +19,7 @@ public class Menu {
         System.out.println("5. Exit");
     }
 
-    public void selectChoice(int choice) {
+    public void selectChoice(int choice, TodoList todoList) {
         switch (choice) {
             case 1:
                 System.out.print("Enter task description: ");
@@ -42,7 +42,7 @@ public class Menu {
                 System.out.print("Enter task number to mark as completed: ");
                 int completeIndex = scanner.nextInt() - 1;
                 scanner.nextLine();
-                todoList.markAsCompleted(completeIndex);
+                todoList.markTaskAsCompleted(completeIndex);
                 break;
 
             case 5:
