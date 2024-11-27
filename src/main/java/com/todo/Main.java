@@ -19,7 +19,9 @@ public class Main {
             scanner.nextLine();
 
             menu.selectChoice(choice, todoList);
-            return;
+            if (choice == 5) {
+                return;
+            }
         }
     }
 }
